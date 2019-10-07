@@ -5,7 +5,7 @@ require 'rdstation/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rdstation-ruby-client"
-  spec.version       = "0.0.5"
+  spec.version       = RDStation::VERSION
   spec.authors       = ["Paulo L F Casaretto"]
   spec.email         = ["paulo.casaretto@resultadosdigitais.com.br"]
   spec.description   = "Ruby API wrapper for RD Station"
