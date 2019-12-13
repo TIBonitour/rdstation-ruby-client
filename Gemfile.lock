@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     rdstation-ruby-client (1.0.0)
-      httparty (~> 0.12)
-      public_suffix (~> 1.4.6)
+      httparty
+      public_suffix
 
 GEM
   remote: https://rubygems.org/
@@ -13,27 +13,27 @@ GEM
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.3)
-    hashdiff (0.3.7)
+    hashdiff (0.3.8)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
     minitest (4.7.5)
     multi_xml (0.6.0)
     public_suffix (1.4.6)
     rake (12.2.1)
-    rspec (3.8.0)
-      rspec-core (~> 3.8.0)
-      rspec-expectations (~> 3.8.0)
-      rspec-mocks (~> 3.8.0)
-    rspec-core (3.8.0)
-      rspec-support (~> 3.8.0)
-    rspec-expectations (3.8.2)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.0)
+      rspec-support (~> 3.9.0)
+    rspec-expectations (3.9.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-mocks (3.8.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-support (3.8.0)
-    safe_yaml (1.0.4)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.0)
+    safe_yaml (1.0.5)
     turn (0.9.7)
       ansi
       minitest (~> 4)
@@ -46,12 +46,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.3)
+  bundler
   rake
   rdstation-ruby-client!
   rspec
   turn
-  webmock (~> 2.1)
+  webmock
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
